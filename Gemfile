@@ -19,3 +19,7 @@ group :development do
   gem 'binding_of_caller'
   gem 'puma'
 end
+
+group :production do
+  gem 'pg'
+end
